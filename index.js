@@ -4,6 +4,7 @@ require('dotenv/config');
 const http = require('http');
 const port = process.env.PORT || 3000;
 const token =process.env.TOKEN;
+http.createServer().listen(port);
 const PREFIX = '$'
 
 bot.on('ready', () =>{
