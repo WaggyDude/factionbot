@@ -50,7 +50,7 @@ bot.on('message', (msg) => {
     
     switch(args[0]){
         case 'ping':
-            msg.channel.send('pong lol');            /**msg.reply('pong lol');--to reply to the person who started the command */
+            msg.channel.send('pong ');            /**msg.reply('pong lol');--to reply to the person who started the command */
         
             break;
         case 'lmt':
@@ -64,11 +64,11 @@ bot.on('message', (msg) => {
             break;
         
         case 'whoisskrt':
-            msg.channel.send('A random ass black bitch');
+            msg.channel.send('');
             break;
         
         case 'whoisnemo':
-            msg.channel.send('Canadian Virgin');
+            msg.channel.send('');
             break;
 
         case 'Shutdown':
@@ -76,11 +76,11 @@ bot.on('message', (msg) => {
             break; 
                       
         case 'whoismaddog':
-            msg.channel.send('American weed smoker');
+            msg.channel.send('');
            break; 
         
             case 'leo':
-            msg.channel.send('How do you know my boyfriend name?');
+            msg.channel.send('');
             break;  
         case 'Server':
             msg.channel.send('Currently this faction plays Jartex Network');
